@@ -1,4 +1,16 @@
 body {
     margin: 0;
-    background-color: blue ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.fs {
+    font-size: 2rem;
 }
