@@ -61,6 +61,7 @@ label {
     background-color: rgb(61, 60, 61);
     color: white;
     border: none;
+    border-radius: 8px;
     font-weight: 400;
     padding: 15px;
     margin: 50px;
