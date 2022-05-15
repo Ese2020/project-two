@@ -56,6 +56,10 @@ label {
     line-height: 1.7rem;
 }
 
+i {
+    font-size: 24px;
+    margin-left: -32px;
+}
 
 .btn {
     background-color: rgb(61, 60, 61);
