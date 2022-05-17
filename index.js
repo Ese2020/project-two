@@ -1,9 +1,8 @@
-let hamDropDown = document.querySelector(".ham-dropdown");
-let body = document.getElementsById("body")
+let navList = document.querySelector(".nav-list");
 
 function myFunction(x) {
     x.classList.toggle("change");
-    hamDropDown.classList.toggle("d-none");
-    hamDropDown.style.opacity = 0.7;
-    body.style.backgroundColor = 'black';
+    navList.classList.toggle("d-none");
+    navList.style.opacity = 1;
 }
+
