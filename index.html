@@ -16,16 +16,9 @@
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
-                <div class="ham-dropdown d-none">
-                    <ul class="ham-list">
-                        <li><a href="#home"></a>Home</li>
-                        <li><a href="#about-us"></a>About Us</li>
-                        <li><a href="#services"></a>Services</li>
-                    </ul>
-                </div>
             </div>
-            <div class="gap mq-none">
-            <ul>
+            <div class="gap">
+            <ul id="nav-list" class="nav-list d-none">
                 <li><a href="#home"></a>Home</li>
                 <li><a href="#about-us"></a>About Us</li>
                 <li><a href="#services"></a>Services</li>
@@ -34,25 +27,50 @@
         </div>
     </nav>
 
-    <form>
-        <label for="username">Username</label><br/>
-        <input type="text" name="username" placeholder="enter your username" />
-        <br/><br/>
-        <label for="password">Password</label><br/>
-        <input type="password" name="password" placeholder="enter your password"><i class="fa fa-eye></i>
-        <br/><br/>
-        <label for="email">Email</label><br/>
-        <input type="email" name="email" placeholder="enter your email" />
-        <br/><br/>
-        <label for="phone number">Phone Number</label><br/>
-        <input type="number" name="phone_number" placeholder="enter your phone number" />
-        <br/><br/>
-        <label for="male">Male</label>
-        <input type="radio" />
-        <label for="female">Female</label>
-        <input type="radio" />
-    </form>
-    <button class="btn">Sign Up</button>
+    <main id="main">
+        <div class="container2">
+            <div class="title">Registration</div>
+            <form id="register" action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input type="text" placeholder="Enter your Username" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter your number" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="password" placeholder="Enter your password">
+                    </div>
+    
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input type="password" placeholder="Confirm your password">
+                    </div>
+                    </div>
+                    <div class="gender-details">
+                        <span class="gender-title">Gender</span>
+                        <div class="category">
+                            <label for="male">Male</label>
+                            <input type="radio" />
+                            <label for="female">Female</label>
+                            <input type="radio" />
+                        </div>
+                    </div>
+                    <div id="submit" class="button">Register</div>    
+                </div>
+            </form>
+        </div>
+    </main>
     <script src="index.js"></script>
 </body>
 </html>
